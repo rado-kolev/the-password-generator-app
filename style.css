@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(5, 173, 246, 1);
+  color: #fff;
+  display: flex;
+  font-family: "Muli", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+
+.container {
+  background-color: rgba(100, 214, 250, 1);
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  background-color: 	rgba(165,213,248,1);
+}
+
+.btn:hover {
+  background-color: lightpink; /* Slightly darker green color when hovering */
+}
+
+.btn:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* CSS styles for the clear button */
+#clear {
+  padding: 10px 20px;
+  margin-top: 20px;;
+  font-size: 16px;
+  background-color: rgba(45,135,200,1); /* Red color for the button background */
+  color: #fff; /* White color for the button text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clear:hover {
+  background-color: #d32f2f; /* Darker red color when hovering */
+}
+
+#clear:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+/* CSS styles for the message element */
+.message {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: rgba(144, 238, 144, 0.7); /* Semi-transparent black background */
+  color: #fff; /* White color for the message text */
+  border-radius: 4px;
+}
+
+/* CSS styles for the strength indicator */
+.strength-indicator {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  display: none; /* Hide the strength indicator by default */
+}
+
+/* Different colors based on the strength level */
+.weak { color: darkred; }
+.moderate { color: yellow; }
+.strong { color: rgb(0, 179, 0); }
+.very-strong { color: green; }
+
+@media screen and (max-width: 400px) {
+  .result-container {
+    font-size: 14px;
+  }
+}
