@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(5, 173, 246, 1);
+  background-color: 	rgb(170, 235, 255);
   color: #fff;
   display: flex;
   font-family: "Muli", sans-serif;
@@ -30,7 +30,7 @@ input[type="checkbox"] {
 }
 
 .container {
-  background-color: rgba(100, 214, 250, 1);
+  background-color: rgb(5, 173, 246);
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
   padding: 20px;
   width: 350px;
@@ -71,11 +71,11 @@ input[type="checkbox"] {
   cursor: pointer;
   font-size: 16px;
   padding: 8px 12px;
-  background-color: 	rgba(165,213,248,1);
+  background-color: 	rgb(165,213,248);
 }
 
 .btn:hover {
-  background-color: lightpink; /* Slightly darker green color when hovering */
+  background-color: 	rgb(139, 203, 249); /* Slightly darker green color when hovering */
 }
 
 .btn:focus {
@@ -99,7 +99,7 @@ input[type="checkbox"] {
   padding: 10px 20px;
   margin-top: 20px;;
   font-size: 16px;
-  background-color: rgba(45,135,200,1); /* Red color for the button background */
+  background-color: rgb(45,135,200); /* Red color for the button background */
   color: #fff; /* White color for the button text */
   border: none;
   border-radius: 4px;
@@ -107,7 +107,7 @@ input[type="checkbox"] {
 }
 
 #clear:hover {
-  background-color: #d32f2f; /* Darker red color when hovering */
+  background-color: rgb(211, 47, 47); /* Darker red color when hovering */
 }
 
 #clear:focus {
@@ -136,10 +136,10 @@ input[type="checkbox"] {
 }
 
 /* Different colors based on the strength level */
-.weak { color: darkred; }
-.moderate { color: yellow; }
+.weak { color: rgb(139, 0, 0); }
+.moderate { color: rgb(255, 255, 0); }
 .strong { color: rgb(0, 179, 0); }
-.very-strong { color: green; }
+.very-strong { color: rgb(0, 128, 0); }
 
 @media screen and (max-width: 400px) {
   .result-container {
