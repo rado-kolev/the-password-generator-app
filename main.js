@@ -185,7 +185,7 @@ function checkPasswordStrength(password) {
     lower: /[a-z]/,
     upper: /[A-Z]/,
     number: /[0-9]/,
-    symbol: /[!@#$%^&*()_+-={}\[\]|:;"<>,.?/~]/,
+    symbol: /[!@#$%^&*()_+-={}\[\]|:;"`<>,.?/~]/,
   };
 
   let strength = 0;
@@ -207,7 +207,7 @@ function checkPasswordStrength(password) {
   if (characterTypeCount >= 4) strength++;
 
   // Penalize passwords with common patterns
-  if (/12345|qwerty|password/i.test(password)) {
+  if (/12345678|qwerty123|password/i.test(password)) {
     strength = Math.max(strength - 1, 0);
   }
 
