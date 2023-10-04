@@ -137,9 +137,9 @@ input[type="checkbox"] {
 
 /* Different colors based on the strength level */
 .weak { color: rgb(139, 0, 0); }
-.moderate { color: rgb(255, 255, 0); }
-.strong { color: rgb(0, 179, 0); }
-.very-strong { color: rgb(0, 128, 0); }
+.moderate { color: rgb(255, 166, 0); }
+.strong { color: rgb(229, 255, 0); }
+.very-strong { color: rgb(0, 118, 0); }
 
 @media screen and (max-width: 400px) {
   .result-container {
