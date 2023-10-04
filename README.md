@@ -27,7 +27,7 @@ A random password generator, that generates passwords with a length between 8 an
 
 ## 💾 Installation
 
-- Clone the repository: `git clone https://github.com/rado-kolev/inspire-me.git`.
+- Clone the repository: `git clone https://github.com/rado-kolev/password-generator-app.git`.
 - If using VS Code, open the `index.html` file and open the website with 'Live Server' or if using a different code editor, open the website with the available localhost.
 
 <br/>
