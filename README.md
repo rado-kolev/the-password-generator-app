@@ -10,7 +10,7 @@ A random password generator, that generates passwords with a length between 8 an
 
 <br/>
 
-## Screenshot
+## Screenshots
 
 
 
