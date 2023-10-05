@@ -12,7 +12,7 @@ A random password generator, that generates passwords with a length between 8 an
 
 ## Screenshots
 
-
+[App screenshot](./demo/pass-gen-screenshot.png)
 
 <br/>
 
